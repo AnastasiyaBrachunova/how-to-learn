@@ -97,7 +97,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0;
-    padding: 100px 0;;
+    padding: 0;
     min-width: 784px;
 }
 .two-collumns{
@@ -154,7 +154,6 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 100px auto;
-    border: 5px solid yellow;
 }
 .table{
     width: 1100px;
@@ -163,7 +162,7 @@ body{
     justify-content: space-between;
     align-items: baseline;
     flex-wrap:wrap ;
-    border: 2px solid black;
+    margin: 0 0 100px 0;
 }
 
 .cell{
@@ -172,7 +171,6 @@ body{
     align-items: stretch;
     padding:0;
     width: 250px;
-    border: 2px solid red;
 }
 .section-title{
     width: 60%;
@@ -180,8 +178,7 @@ body{
     font-size: 60px;
     font-weight: bold;
     text-align: center;
-    margin: 0;
-    border: 2px solid blue;
+    margin: 100px 0 20px 0;
 }
 .section-subtitle{
     width: 60%;
@@ -190,22 +187,79 @@ body{
     font-weight: normal;
     text-align: center;
     margin: 0;
-    border: 2px solid red;
 }
 .table__heading{
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
     margin:0;
-    border: 2px solid red;
+
 }
 .table__text{
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
     margin: 0;
-    border: 2px solid green;
+  
 }
 .table__text:nth-child(2){
     margin: 20px 0;
+}
+.cell:nth-child(-n+4){
+    margin: 60px 0;
+}
+
+
+.feynman{
+    height: 890px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    position: relative;
+    margin:0;
+    border: 2px solid red;
+
+}
+.feynman__title{
+    width: 648px;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-top: 100px;
+    z-index: 2;
+    border: 2px solid green;
+}
+.feynman__subtitle{
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    z-index: 2;
+    margin: 0;
+    margin-top: 70px;
+    border: 2px solid yellowgreen;
+}
+.feynman__link{
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    color: #2f80ed;
+    z-index: 2;
+    margin: 0;
+    position: absolute;
+    top:50%;
+    right: 48px;
+    border: 2px solid black;
+}
+.pic-feynman{
+    width: 867px;
+    height: 637px;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    border: 2px solid rosybrown;
+
 }
