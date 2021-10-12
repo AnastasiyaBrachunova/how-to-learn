@@ -247,6 +247,7 @@ body{
     font-size: 36px;
     font-weight: normal;
     color: #2f80ed;
+    text-decoration: none;
     z-index: 2;
     margin: 0;
     position: absolute;
@@ -262,4 +263,24 @@ body{
     bottom: 0;
     border: 2px solid rosybrown;
 
+}
+.kaufman{
+    height: 890px; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    position: relative;
+    margin:0;
+    overflow: hidden; 
+    border: 2px solid red;
+}
+.triangl-pic{
+    width: 877px;
+    height: 877px;
+    position: absolute;
+    top:0;
+    right: -210px;
+    z-index: 0;
 }
