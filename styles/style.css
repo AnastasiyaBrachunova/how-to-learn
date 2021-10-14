@@ -43,7 +43,6 @@ body{
     margin: 0;
     }
 .subtitle{
-   
    width: 388px; 
    text-align: left;
    color:black;
@@ -163,6 +162,7 @@ body{
     align-items: baseline;
     flex-wrap:wrap ;
     margin: 0 0 100px 0;
+    z-index: 1;
 }
 
 .cell{
@@ -172,13 +172,19 @@ body{
     padding:0;
     width: 250px;
 }
+.cell-dark{
+    width: 200px;
+}
 .section-title{
     width: 60%;
+    text-align: center;
+    margin: 100px 0 20px 0;
     line-height: 1.15;
     font-size: 60px;
     font-weight: bold;
-    text-align: center;
-    margin: 100px 0 20px 0;
+}
+.theme-dark {
+    color: white;
 }
 .section-subtitle{
     width: 60%;
@@ -193,7 +199,6 @@ body{
     font-size: 24px;
     font-weight: bold;
     margin:0;
-
 }
 .table__text{
     line-height: 1.2;
@@ -219,8 +224,6 @@ body{
     background-color: #f2f2f2;
     position: relative;
     margin:0;
-    border: 2px solid red;
-
 }
 .feynman__title{
     width: 648px;
@@ -231,7 +234,6 @@ body{
     margin: 0;
     margin-top: 100px;
     z-index: 2;
-    border: 2px solid green;
 }
 .feynman__subtitle{
     line-height: 51px;
@@ -240,7 +242,6 @@ body{
     z-index: 2;
     margin: 0;
     margin-top: 70px;
-    border: 2px solid yellowgreen;
 }
 .feynman__link{
     line-height: 51px;
@@ -253,7 +254,6 @@ body{
     position: absolute;
     top:50%;
     right: 48px;
-    border: 2px solid black;
 }
 .pic-feynman{
     width: 867px;
@@ -261,20 +261,21 @@ body{
     position: absolute;
     left:0;
     bottom: 0;
-    border: 2px solid rosybrown;
-
 }
+
+
+
+
 .kaufman{
     height: 890px; 
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: black ;
     position: relative;
     margin:0;
     overflow: hidden; 
-    border: 2px solid red;
 }
 .triangl-pic{
     width: 877px;
