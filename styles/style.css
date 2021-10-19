@@ -25,7 +25,7 @@ body{
     background-size: contain;
     z-index: 2;
 }
-.logo_place_header{
+.logo__place_header{
     width: 183px;
     height: 32px;
     position: absolute;
@@ -284,4 +284,60 @@ body{
     top:0;
     right: -210px;
     z-index: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 711px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height:350px;
+    width: 100%;
+    border-color: black;
+    border: 3px solid red;
+}
+.footer_columns{
+    margin: 60px auto 40px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 2px solid white;
+}
+.footer_column__content_copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid greenyellow;
+}
+.logo__place_footer{
+    width: 183px;
+    height: 35px;
+    border: 1px solid blue;
+}
+.footer_author{
+    margin: 18px 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid blueviolet;
+}
+.footer_column__content_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid yellowgreen;
+}
+.footer_column-heading{
+    margin: 0;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.footer_column-links{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
 }
