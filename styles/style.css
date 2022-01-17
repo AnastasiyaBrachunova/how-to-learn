@@ -1,5 +1,5 @@
 body{
-    font-family: "Helvetica Neue", "Arial", sans-serif ;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
 }
 .page  {
     display: flex;
@@ -11,7 +11,7 @@ body{
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 .header{
-    height: 756px; 
+    height: 756px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@ body{
    
     }
 .subtitle{
-   width: 388px; 
+   width: 388px;
    text-align: left;
    color:black;
    text-decoration: none;
@@ -160,7 +160,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
-    flex-wrap:wrap ;
+    flex-wrap:wrap;
     margin: 0 0 100px 0;
     z-index: 1;
 }
@@ -233,7 +233,7 @@ body{
 
 
 .feynman{
-    height: 890px; 
+    height: 890px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -279,17 +279,13 @@ body{
     left:0;
     bottom: 0;
 }
-
-
-
-
 .kaufman{
-    height: 890px; 
+    height: 890px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black ;
+    background-color: black;
     position: relative;
     margin:0;
     overflow: hidden; 
