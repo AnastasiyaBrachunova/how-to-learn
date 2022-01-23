@@ -32,7 +32,7 @@
     left: 64px;
    }
 .header__title{
-    margin-left: 64px;
+    margin: 0 0 0 64px;
     width: 730px;
     text-align: left;
     text-decoration: none;
@@ -204,7 +204,7 @@
     font-size: 18px;
     font-weight: normal;
     padding:0;
-    margin-top: 20px;
+    margin: 20px 0 0 0;
     list-style-type: none;
   }
 .table__text_theme_dark{
@@ -230,6 +230,7 @@
     margin: 0;
     margin-top: 100px;
     z-index: 2;
+   
 }
 .feynman__subtitle{
     line-height: 51px;
