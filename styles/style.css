@@ -1,3 +1,13 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} 
+
+
 .page {
     display: flex;
     flex-direction: column;
@@ -17,6 +27,7 @@
     background-color: #f2f2f2;
     background-size: contain;
     position: relative;
+    overflow: hidden;
  }
 .logo {
     background-size: contain;
@@ -61,6 +72,10 @@
     color: #2f80ed;
     text-decoration: none;
 }
+a:hover {
+    opacity: 0.4;
+    transition: 0.35s linear 0.001s;
+}
 .header__main-illustration {
     background-image: url(../images/header-image.png);
     background-repeat: no-repeat;
@@ -81,7 +96,51 @@
     top: 64px;
     right: 0;
     z-index: 0;
+    
 }
+.rotation {
+    animation: rotation 20s linear infinite;
+}
+.techniques {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
+    padding: 0;
+    width: 80%;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 920px;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.cards__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.cards__image {
+    width: 160px;
+    height: 160px;
+    margin: 60px 40px 43px;
+}
+.cards__title{
+    margin:0 0 16px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+.cards__description{
+    margin: 0;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
 .description {
     display: flex;
     flex-direction: column;
@@ -91,7 +150,7 @@
 }
 .two-columns{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     width: 80%;
