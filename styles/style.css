@@ -113,15 +113,20 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: flex-start;
     width: 920px;
-    justify-content: space-between;
     align-items: baseline;
+
 }
 .cards__item{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 240px;
+}
+.cards__item:not(:nth-child(3n)){
+    margin-right: 100px;
 }
 .cards__image {
     width: 160px;
@@ -133,9 +138,11 @@ a:hover {
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
 }
 .cards__description{
     margin: 0;
+    text-align: center;
     line-height: 23px;
     font-size: 18px;
     font-weight: normal;
@@ -150,7 +157,7 @@ a:hover {
 }
 .two-columns{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 80%;
