@@ -6,4 +6,6 @@
     width: 920px;
     align-items: baseline;
     list-style-type:none;
+    padding: 0;
+    margin: 0;
 }

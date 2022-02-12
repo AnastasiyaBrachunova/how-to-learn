@@ -7,7 +7,3 @@
     margin: 0 auto;
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.link-animation:hover{
-    opacity: 0.4;
-    transition: 0.35s linear 0.001s;
-}
